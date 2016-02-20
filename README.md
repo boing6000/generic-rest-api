@@ -46,34 +46,34 @@ Available methods:
 - GET /api/[version]/[model] - returns list containing all table rows
 
 
-    [
-      {
-        "id": 1,
-        "name": "some name",
-        "email": "some@email.com",
-        "created_at": "2015-11-27 08:17:31",
-        "updated_at": "2016-01-12 20:47:11"
-      },
-      {
-        "id": 2,
-        "name": "another name",
-        "email": "another@email.com",
-        "created_at": "2016-02-01 12:01:02",
-        "updated_at": "2016-02-17 18:12:41"
-      }
-    ]
+        [
+          {
+            "id": 1,
+            "name": "some name",
+            "email": "some@email.com",
+            "created_at": "2015-11-27 08:17:31",
+            "updated_at": "2016-01-12 20:47:11"
+          },
+          {
+            "id": 2,
+            "name": "another name",
+            "email": "another@email.com",
+            "created_at": "2016-02-01 12:01:02",
+            "updated_at": "2016-02-17 18:12:41"
+          }
+        ]
 
 
 - GET /api/[version]/[model]/[id] - returns single row
 
 
-    {
-        "id": 1,
-        "name": "some name",
-        "email": "some@email.com",
-        "created_at": "2015-11-27 08:17:31",
-        "updated_at": "2016-01-12 20:47:11"
-    }
+        {
+            "id": 1,
+            "name": "some name",
+            "email": "some@email.com",
+            "created_at": "2015-11-27 08:17:31",
+            "updated_at": "2016-01-12 20:47:11"
+        }
 
 
 - POST /api/[version]/[model] - creates new row from query parameters
