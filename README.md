@@ -3,6 +3,8 @@
 This Laravel 5 package provides easy way for creating REST API based on your models.
 You only need to define list of models that will be used in your API.
 
+**WARNING! This package is currenty under development and is not production ready.**
+
 ## Instalation
 
 To install Generic REST API package run this command in your project directory
