@@ -1,0 +1,20 @@
+{
+  "name": "wilgucki/generic-rest-api",
+  "description": "This package allows you to create REST API based on your models",
+  "keywords": ["laravel", "rest", "api", "rest api", "generic rest api", "api generator"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Maciej Wilgucki",
+      "email": "mwigucki@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.6"
+  },
+  "autoload": {
+    "psr-4": {
+      "Wilgucki\\GenericRestApi\\": "src"
+    }
+  }
+}
