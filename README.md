@@ -37,7 +37,7 @@ namespace in generic-rest-api.php configuration file.
 
 - api-version - this will be added as prefix to API route
 - model-namespace - the namespace of models
-- models - list of models you want to share via AIP
+- models - list of models you want to share via API
 
 ## Usage
 
